@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { supabase } from "../config/supabaseClient.js"
+import supabase from "../config/supabaseClient.js"
 
 const SmoothieCard = ({ smoothie, onDelete }) => {
 

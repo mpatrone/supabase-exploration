@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { supabase } from "../config/supabaseClient.js"
+import supabase from "../config/supabaseClient"
 import { useNavigate, useParams } from "react-router-dom"
 
 const Update = () => {

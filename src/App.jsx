@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 
 // pages
-import Home from "./pages/Home.js"
-import Create from "./pages/Create.js"
-import Update from "./pages/Update.js"
+import Home from "./pages/Home"
+import Create from "./pages/Create"
+import Update from "./pages/Update"
 
 
 function App() {
